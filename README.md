@@ -9,10 +9,9 @@
 - https://ionicframework.com/start
 - https://dashboard.ionicframework.com/app/b7f472e5/getting-started
     ```shell
-    npm install -g @ionic/cli
-    ionic start myApp tabs --type react
-    
-    ionic serve █
+    sudo chown -R $(whoami) /usr/local/{lib/node_modules,bin,share}
+    sudo chown -R $(whoami) ~/.npm ~/.npmrc
+    npm install -g @ionic/cli native-run cordova-res
     ```
 
 - https://ionicframework.com/docs/intro/cdn#ionic--react
